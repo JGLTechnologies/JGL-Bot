@@ -101,7 +101,7 @@ List all role dependencies:
 
 ## Reaction Roles
 
-To delete the reaction role just delete the message. If that does not work, use the `/rr remove` command
+To delete the reaction role from the list just delete the message. If that does not work, use the `/rr remove` command
 
 Creating a reaction role:
 
