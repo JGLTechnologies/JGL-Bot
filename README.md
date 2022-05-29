@@ -8,6 +8,10 @@ Support for the bot can be given in the issues tab of the repository, at <a href
 
 ## Config
 
+View config using `/config`
+
+<br>
+
 Setting a mute role:
 
 `/set role name: Mute, role: @muted`
@@ -68,17 +72,26 @@ Valid punishments:
 ## Role Dependencies
 
 A role dependecy is when a role is dependent on another role. So if one role gets removed so does the dependent role.
+There is a max of 20 per server.
 
 Creating a role dependency:
 
 `/dependencies add role: @staff, dependent: @helper`
 If @staff is removed, @helper will also be removed
 
+<br>
+
 Removing a role dependency:
 
 `/dependencies remove role: @staff, dependent: @helper`
 
+<br>
 
+Clear all dependencies:
+
+`/dependencies clear`
+
+<br>
 
 
 
