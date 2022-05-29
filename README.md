@@ -8,7 +8,7 @@ Support for the bot can be given in the issues tab of the repository, at <a href
 
 ## Config
 
-Seting a mute role:
+Setting a mute role:
 
 `/set role name: Mute, role: @muted`
 
@@ -21,7 +21,7 @@ Valid role names:
 
 <br>
 
-Seting a logging channel:
+Setting a logging channel:
 
 `/set channel name: Logging, channel: #logging`
 
@@ -34,7 +34,7 @@ Valid channel names:
 
 <br>
 
-Seting a welcome message:
+Setting a welcome message:
 
 `/set message name: Welcome, message: {member} has joine the server!`
 
@@ -43,4 +43,21 @@ Seting a welcome message:
 Valid message names:
   - Welcome (Welcome message)
   - Goodbye (Goodbye message)
+
+Setting a warning punishment:
+
+`/set punishment punishment: Temp Ban, warning: 7, duration: Days, number: 5`
+This will ban someone for 5 days when they get 7 warnings. Duration and number are not need when the punishment is not temporary.
+
+<br>
+
+Valid punishments:
+  - Kick
+  - Ban
+  - Mute
+  - Timeout
+  - Temp Ban
+  - Temp Mute
+
+
 
