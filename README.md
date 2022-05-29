@@ -6,6 +6,8 @@
 
 Support for the bot can be given in the issues tab of the repository, at <a href="https://jgltechnologies.com/contact">https://jgltechnologies.com/contact</a>, or on our <a href="https://jgltechnologies.com/discord">Discord server</a>.
 
+<a href="https://discord.com/api/oauth2/authorize?client_id=844976951692361800&permissions=8&scope=bot%20applications.commands">Invite Link</a>
+
 ## Config
 
 View config using `/config`
