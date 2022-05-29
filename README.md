@@ -46,6 +46,7 @@ Setting a welcome message:
 
 `/set message name: Welcome message: {member} has joined the server!`
  Leave message empty to unset it.
+ Message have a max of 1000 charaters.
  
 <br>
 
