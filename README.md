@@ -11,6 +11,7 @@ Support for the bot can be given in the issues tab of the repository, at <a href
 Setting a mute role:
 
 `/set role name: Mute, role: @muted`
+Leave role empty to unset it.
 
 <br>
 
@@ -24,6 +25,7 @@ Valid role names:
 Setting a logging channel:
 
 `/set channel name: Logging, channel: #logging`
+Leave channel empty to unset it.
 
 <br>
 
@@ -37,7 +39,8 @@ Valid channel names:
 Setting a welcome message:
 
 `/set message name: Welcome, message: {member} has joine the server!`
-
+ Leave message empty to unset it.
+ 
 <br>
 
 Valid message names:
@@ -47,6 +50,7 @@ Valid message names:
 Setting a warning punishment:
 
 `/set punishment punishment: Temp Ban, warning: 7, duration: Days, number: 5`
+Leave punishment empty to unset it.
 This will ban someone for 5 days when they get 7 warnings. Duration and number are not need when the punishment is not temporary.
 
 <br>
@@ -58,6 +62,24 @@ Valid punishments:
   - Timeout
   - Temp Ban
   - Temp Mute
+
+<br>
+
+## Role Dependencies
+
+A role dependecy is when a role is dependent on another role. So if one role gets removed so does the dependent role.
+
+Creating a role dependency:
+
+`/dependencies add role: @staff, dependent: @helper`
+If @staff is removed, @helper will also be removed
+
+Removing a role dependency:
+
+`/dependencies remove role: @staff, dependent: @helper`
+
+
+
 
 
 
