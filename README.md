@@ -11,6 +11,7 @@ Support for the bot can be given in the issues tab of the repository, at <a href
 ## Config
 
 View config using `/config`
+Reset config using `/config reset`
 
 <br>
 
