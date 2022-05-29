@@ -14,7 +14,7 @@ View config using `/config`
 
 Setting a mute role:
 
-`/set role name: Mute, role: @muted`
+`/set role name: Mute role: @muted`
 Leave role empty to unset it.
 
 <br>
@@ -28,7 +28,7 @@ Valid role names:
 
 Setting a logging channel:
 
-`/set channel name: Logging, channel: #logging`
+`/set channel name: Logging channel: #logging`
 Leave channel empty to unset it.
 
 <br>
@@ -42,7 +42,7 @@ Valid channel names:
 
 Setting a welcome message:
 
-`/set message name: Welcome, message: {member} has joine the server!`
+`/set message name: Welcome message: {member} has joined the server!`
  Leave message empty to unset it.
  
 <br>
@@ -53,7 +53,7 @@ Valid message names:
 
 Setting a warning punishment:
 
-`/set punishment punishment: Temp Ban, warning: 7, duration: Days, number: 5`
+`/set punishment punishment: Temp Ban warning: 7 duration: Days number: 5`
 Leave punishment empty to unset it.
 This will ban someone for 5 days when they get 7 warnings. Duration and number are not need when the punishment is not temporary.
 
@@ -76,14 +76,14 @@ There is a max of 20 per server.
 
 Creating a role dependency:
 
-`/dependencies add role: @staff, dependent: @helper`
+`/dependencies add role: @staff dependent: @helper`
 If @staff is removed, @helper will also be removed
 
 <br>
 
 Removing a role dependency:
 
-`/dependencies remove role: @staff, dependent: @helper`
+`/dependencies remove role: @staff dependent: @helper`
 
 <br>
 
@@ -92,6 +92,34 @@ Clear all dependencies:
 `/dependencies clear`
 
 <br>
+
+List all role dependencies:
+
+`/dependencies list`
+
+<br>
+
+## Reaction Roles
+
+To delete the reaction role just delete the message. If that does not work, use the `/rr remove` command
+
+Creating a reaction role:
+
+`/rr create emojis: 🔴, 🔵 roles: @red, @blue title: Colors description: Select your favorite color`
+
+<br>
+
+Clearing all reaction roles:
+
+
+`/rr clear`
+
+
+Listing recent reaction roles:
+
+`/rr list`
+
+
 
 
 
