@@ -123,6 +123,28 @@ Listing recent reaction roles:
 
 `/rr list`
 
+<br>
+
+## Tickets
+
+To use the tickets feature you must run the `/tickets setup` command.
+
+Creating a ticket:
+
+`/tickets create reason: I need support`
+
+<br>
+
+Closing a ticket (must be in the ticket channel):
+
+`/tickets close`
+
+<br>
+
+View the current ticket config:
+
+`/tickets config`
+
 
 
 
